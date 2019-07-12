@@ -1,0 +1,183 @@
+*{
+    padding :0px;
+    margin:0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+#container{
+    width:90%;
+    margin:auto;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+
+#header{
+    background-image: url(../images/your_verse_hero.jpg);
+    background-repeat:no-repeat;
+    background-position: 100% 100%;
+    height:538px;
+
+}
+
+
+.section-div{
+
+    margin: 0;
+    width:25%;
+    height:200px;
+    float:left;
+    border:1px solid white;
+    box-sizing: border-box;
+}
+.clear{
+    clear: left;
+}
+
+#scetion-first{
+    background: url(../images/promo_iphone5s.jpg) no-repeat;
+    
+
+}
+
+#scetion-second{
+    background: url(../images/promo_iphone5c.jpg) no-repeat;
+    
+}
+
+#scetion-third{
+    background: url(../images/promo_30_years.jpg) no-repeat;
+    
+}
+
+#scetion-forth{
+    background: url(../images/promo_supplier_responsibility.jpg) no-repeat;
+    
+}
+#nav-bar img{
+    width:20px;
+    height:20px;
+}
+
+#nav-bar{
+   list-style-type: none;
+   background: linear-gradient(180deg ,rgb(104,104,104) 50%,rgba(108,108,108,1.2) 50%,#8c8c8c 10%); 
+  
+  
+   border-radius: 7px;
+}
+
+#header-container{
+    width:70%;
+    position: absolute;
+    top:10%;
+    left:15%;
+    text-align: center;
+
+}
+
+
+.image-center{
+    width:100%;
+}
+
+#header-container h1{
+    font-size: 24px;
+line-height: 36px;
+font-weight: bold;
+color:white;
+font-style: normal;
+font: 100px/180px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
+
+}
+
+#nav-bar li{
+    display: inline-block;
+    width:12%;
+    height:30px;
+    text-align: center;
+    padding-top: 7px;
+    color:white;
+    border-left: 1px solid gray;
+    
+    
+   
+ }
+
+
+ #nav-bar li input{
+    
+    border-radius: 10px;
+    background: none;
+    width: 80%;
+    background-image: url(../images/search2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px 15px;
+    margin-left: 20px;
+    box-shadow: black;
+ }
+
+ #nav-bar li input::after{
+    
+    background-image: url(../images/search2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 10px;
+    border:none;
+    
+ }
+
+ 
+ 
+#acthor{
+    background: url(../images/message-foot.png);
+    background-position: 100% 100% contain;
+    height:32px;
+    width:100%;
+    margin-top:50px;
+
+}
+
+.footer-link{
+    display:inline-block;
+    padding:0 5px;
+    border-right: 1px solid gray;
+ 
+
+}
+.footer-link a{
+   text-decoration-line: none;
+   color: #2f96d9;
+   
+}
+
+.footer-text-color{
+    color: #2f96d9;
+}
+.footer-link a:hover{
+    text-decoration-line:underline; 
+    
+ }
+
+ .footer-paragraph{
+     width: 50%;
+     float: left;
+     margin-top: 20px;
+ }
+
+ #footer{
+     width: 70%;
+     margin:auto;
+     color: #6e6e6e;
+    font-size: .700em;
+    line-height: 1.2;
+    font-family:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif
+ }
+
+
+
