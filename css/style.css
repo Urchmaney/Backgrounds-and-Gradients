@@ -8,7 +8,7 @@ body{
 }
 
 #container{
-    width:90%;
+    width:95%;
     margin:auto;
     position: relative;
     padding-bottom: 20px;
@@ -20,6 +20,7 @@ body{
     background-repeat:no-repeat;
     background-position: 100% 100%;
     height:538px;
+    background-size: cover;
 
 }
 
@@ -119,7 +120,7 @@ font: 100px/180px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verd
     background-position: left;
     background-size: 15px 15px;
     margin-left: 20px;
-    box-shadow: black;
+    box-shadow: 0px 1px black;
  }
 
  #nav-bar li input::after{
@@ -136,12 +137,19 @@ font: 100px/180px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verd
  
 #acthor{
     background: url(../images/message-foot.png);
-    background-position: 100% 100% contain;
+    
     height:32px;
-    width:100%;
-    margin-top:50px;
+    width:52%;
+    margin:30px auto 0 auto;
+    background-position:center top;
+    
 
 }
+
+#acthor:hover{
+    border-bottom: 1px solid white;
+}
+
 
 .footer-link{
     display:inline-block;
@@ -164,6 +172,11 @@ font: 100px/180px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verd
     
  }
 
+ #footer-paragraph-container{
+     width: 80%;
+     margin: auto;
+ }
+
  .footer-paragraph{
      width: 50%;
      float: left;
@@ -171,13 +184,37 @@ font: 100px/180px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verd
  }
 
  #footer{
-     width: 70%;
+     width: 100%;
      margin:auto;
      color: #6e6e6e;
-    font-size: .700em;
+    font-size: 10px;
     line-height: 1.2;
-    font-family:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif
+    font-weight: 100;
+    font-family:  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
  }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+ #header-img-1{
+     width:90%;
+     background-image: url(../images/message-header.png);
+     height:100px;
+     margin-top: 20px;
+ }
+
+ #header-img-2{
+    width:90%;
+    background-image: url(../images/message.png);
+    height:85px;
+}
