@@ -66,10 +66,12 @@ body{
 #nav-bar{
    list-style-type: none;
    background: linear-gradient(180deg ,rgb(104,104,104) 50%,rgba(108,108,108,1.2) 50%,#8c8c8c 10%); 
-  
+    overflow: hidden;
   
    border-radius: 7px;
 }
+
+
 
 #header-container{
     width:70%;
@@ -97,41 +99,45 @@ font: 100px/180px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verd
 }
 
 #nav-bar li{
-    display: inline-block;
+    
     width:12%;
+    float: left;
     height:30px;
     text-align: center;
     padding-top: 7px;
     color:white;
-    border-left: 1px solid gray;
-    
-    
-   
+    border-left: 1px solid gray; 
+ }
+
+ #nav-bar li:last-child{
+     width:15%;
  }
 
 
  #nav-bar li input{
     
     border-radius: 10px;
+    border:1px solid #989898;
     background: none;
-    width: 80%;
+    width: 70%;
     background-image: url(../images/search2.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 15px 15px;
     margin-left: 20px;
-    box-shadow: 0px 1px black;
+    box-shadow: 0px -1px black;
+    margin-top:2px;
+    padding:2px 2px 2px 17px;
+    
  }
 
- #nav-bar li input::after{
-    
-    background-image: url(../images/search2.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    height: 10px;
+ #nav-bar li input:focus{
+    background-image: url(../images/search.png);
     border:none;
-    
+    outline: none;
+    background-color: white;
  }
+
 
  
  
