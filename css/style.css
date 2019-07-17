@@ -1,0 +1,226 @@
+*{
+    padding :0px;
+    margin:0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+#container{
+    width:95%;
+    margin:auto;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+
+#header{
+    background-image: url(../images/your_verse_hero.jpg);
+    background-repeat:no-repeat;
+    background-position: 100% 100%;
+    height:538px;
+    background-size: cover;
+
+}
+
+
+.section-div{
+
+    margin: 0;
+    width:25%;
+    height:200px;
+    float:left;
+    border:1px solid white;
+    box-sizing: border-box;
+}
+.clear{
+    clear: left;
+}
+
+#scetion-first{
+    background: url(../images/promo_iphone5s.jpg) no-repeat;
+    
+
+}
+
+#scetion-second{
+    background: url(../images/promo_iphone5c.jpg) no-repeat;
+    
+}
+
+#scetion-third{
+    background: url(../images/promo_30_years.jpg) no-repeat;
+    
+}
+
+#scetion-forth{
+    background: url(../images/promo_supplier_responsibility.jpg) no-repeat;
+    
+}
+#nav-bar img{
+    width:20px;
+    height:20px;
+}
+
+#nav-bar{
+   list-style-type: none;
+   background: linear-gradient(180deg ,rgb(104,104,104) 50%,rgba(108,108,108,1.2) 50%,#8c8c8c 10%); 
+    overflow: hidden;
+  
+   border-radius: 7px;
+}
+
+
+
+#header-container{
+    width:70%;
+    position: absolute;
+    top:10%;
+    left:15%;
+    text-align: center;
+
+}
+
+
+.image-center{
+    width:100%;
+}
+
+#header-container h1{
+    font-size: 24px;
+line-height: 36px;
+font-weight: bold;
+color:white;
+font-style: normal;
+font: 100px/180px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
+
+}
+
+#nav-bar li{
+    
+    width:12%;
+    float: left;
+    height:30px;
+    text-align: center;
+    padding-top: 7px;
+    color:white;
+    border-left: 1px solid gray; 
+ }
+
+ #nav-bar li:last-child{
+     width:15%;
+ }
+
+
+ #nav-bar li input{
+    
+    border-radius: 10px;
+    border:1px solid #989898;
+    background: none;
+    width: 70%;
+    background-image: url(../images/search2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px 15px;
+    margin-left: 20px;
+    box-shadow: 0px -1px black;
+    margin-top:2px;
+    padding:2px 2px 2px 17px;
+    
+ }
+
+ #nav-bar li input:focus{
+    background-image: url(../images/search.png);
+    border:none;
+    outline: none;
+    background-color: white;
+ }
+
+
+ 
+ 
+#acthor{
+    background: url(../images/message-foot.png);
+    
+    height:32px;
+    width:52%;
+    margin:30px auto 0 auto;
+    background-position:center top;
+    
+
+}
+
+#acthor:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.footer-link{
+    display:inline-block;
+    padding:0 5px;
+    border-right: 1px solid gray;
+ 
+
+}
+.footer-link a{
+   text-decoration-line: none;
+   color: #2f96d9;
+   
+}
+
+.footer-text-color{
+    color: #2f96d9;
+}
+.footer-link a:hover{
+    text-decoration-line:underline; 
+    
+ }
+
+ #footer-paragraph-container{
+     width: 80%;
+     margin: auto;
+ }
+
+ .footer-paragraph{
+     width: 50%;
+     float: left;
+     margin-top: 20px;
+ }
+
+ #footer{
+     width: 100%;
+     margin:auto;
+     color: #6e6e6e;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 100;
+    font-family:  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #header-img-1{
+     width:90%;
+     background-image: url(../images/message-header.png);
+     height:100px;
+     margin-top: 20px;
+ }
+
+ #header-img-2{
+    width:90%;
+    background-image: url(../images/message.png);
+    height:85px;
+}
